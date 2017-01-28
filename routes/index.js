@@ -18,7 +18,8 @@ var randomUsername = require('../models/randos');
 
 /* GET home page. */
 app.get('/', function(req, res, next) {
-  res.render('index', { title: 'I \' playing with your titles!' });
+  res.render('index', { title: 'I \' playing with your titles!' ,
+					  badVarName: 'randomstringname'});
 });
 
 
